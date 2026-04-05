@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday My Love</title>
+<style>
+body{
+    background: linear-gradient(to right,#ff9a9e,#fad0c4);
+    font-family: Arial;
+    text-align:center;
+    color:white;
+}
+
+.container{
+    margin-top:80px;
+}
+
+h1{
+    font-size:50px;
+}
+
+.message{
+    font-size:22px;
+    margin:20px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    background:white;
+    color:#ff4b6e;
+    font-size:18px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ffe6ec;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Happy Birthday ❤️</h1>
+
+<h2>To The Most Special Person In My Life</h2>
+
+<p class="message">
+From the day you came into my life, everything became brighter.  
+Thank you for loving me, supporting me and standing beside me thank you for everything my love, and making me smile every day.  
+I’m so lucky to have you.  
+</p>
+
+<button onclick="showMessage()">Click For Surprise 🎁</button>
+
+<p id="surprise"></p>
+
+</div>
+
+<script>
+function showMessage(){
+document.getElementById("surprise").innerHTML =
+"I love you so much ❤️ Happy Birthday Meri jaan😘✨!";
+}
+</script>
+
+</body>
+</html>
